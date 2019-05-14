@@ -1,0 +1,11 @@
+strings:
+  inputs: AlbumSearch/Resources
+  filter: .+\.strings$
+  outputs:
+    - templateName: structured-swift4
+      output: AlbumSearch/Resources/Generated/strings.swift
+xcassets:
+  inputs: AlbumSearch/Resources/Assets.xcassets
+  outputs:
+    - templateName: swift4
+      output: AlbumSearch/Resources/Generated/assets-images.swift

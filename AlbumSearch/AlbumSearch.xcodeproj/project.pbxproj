@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F9379BE4E5255E0FE3C9E47 /* Pods_AlbumSearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD411C861BB8CDBECE264A5 /* Pods_AlbumSearchUITests.framework */; };
 		AFE644F0228B821A0060C14C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE644EF228B821A0060C14C /* AppDelegate.swift */; };
 		AFE644F2228B821A0060C14C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE644F1228B821A0060C14C /* ViewController.swift */; };
 		AFE644F5228B821A0060C14C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE644F3228B821A0060C14C /* Main.storyboard */; };
@@ -15,6 +16,10 @@
 		AFE64505228B821A0060C14C /* AlbumSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE64504228B821A0060C14C /* AlbumSearchTests.swift */; };
 		AFE64510228B821A0060C14C /* AlbumSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE6450F228B821A0060C14C /* AlbumSearchUITests.swift */; };
 		AFE64570228B82B30060C14C /* AlbumSearchAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE6456F228B82B30060C14C /* AlbumSearchAPI.framework */; };
+		AFE64576228B877F0060C14C /* assets-images.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE64574228B87790060C14C /* assets-images.swift */; };
+		AFE64577228B877F0060C14C /* strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE64575228B877F0060C14C /* strings.swift */; };
+		C0220205261E21D03E8DF659 /* Pods_AlbumSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2823AE8B74E9F489B9ECBB1D /* Pods_AlbumSearch.framework */; };
+		C350732BB204D1C522C68230 /* Pods_AlbumSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE36362932932C46501E9FA5 /* Pods_AlbumSearchTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2823AE8B74E9F489B9ECBB1D /* Pods_AlbumSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlbumSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0C2C5999BC9ABC565AAFB0 /* Pods-AlbumSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlbumSearch.release.xcconfig"; path = "Target Support Files/Pods-AlbumSearch/Pods-AlbumSearch.release.xcconfig"; sourceTree = "<group>"; };
+		60BA1C535D208B4031A1E209 /* Pods-AlbumSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlbumSearchTests.release.xcconfig"; path = "Target Support Files/Pods-AlbumSearchTests/Pods-AlbumSearchTests.release.xcconfig"; sourceTree = "<group>"; };
+		7BC928F16578128D4CC81E83 /* Pods-AlbumSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlbumSearch.debug.xcconfig"; path = "Target Support Files/Pods-AlbumSearch/Pods-AlbumSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		AFE644EC228B821A0060C14C /* AlbumSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlbumSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE644EF228B821A0060C14C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFE644F1228B821A0060C14C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,13 @@
 		AFE6450F228B821A0060C14C /* AlbumSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumSearchUITests.swift; sourceTree = "<group>"; };
 		AFE64511228B821A0060C14C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFE6456F228B82B30060C14C /* AlbumSearchAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AlbumSearchAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE64574228B87790060C14C /* assets-images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "assets-images.swift"; sourceTree = "<group>"; };
+		AFE64575228B877F0060C14C /* strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = strings.swift; sourceTree = "<group>"; };
+		CAD411C861BB8CDBECE264A5 /* Pods_AlbumSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlbumSearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D065A4864B8FA73B8CDEB1FC /* Pods-AlbumSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlbumSearchUITests.debug.xcconfig"; path = "Target Support Files/Pods-AlbumSearchUITests/Pods-AlbumSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEC28C3360BDC4AE9CB5E844 /* Pods-AlbumSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlbumSearchTests.debug.xcconfig"; path = "Target Support Files/Pods-AlbumSearchTests/Pods-AlbumSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE36362932932C46501E9FA5 /* Pods_AlbumSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlbumSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF508A2325E0402972FF3D2 /* Pods-AlbumSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlbumSearchUITests.release.xcconfig"; path = "Target Support Files/Pods-AlbumSearchUITests/Pods-AlbumSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFE64570228B82B30060C14C /* AlbumSearchAPI.framework in Frameworks */,
+				C0220205261E21D03E8DF659 /* Pods_AlbumSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C350732BB204D1C522C68230 /* Pods_AlbumSearchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,12 +89,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F9379BE4E5255E0FE3C9E47 /* Pods_AlbumSearchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8262466814B36CD904319C49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BC928F16578128D4CC81E83 /* Pods-AlbumSearch.debug.xcconfig */,
+				5A0C2C5999BC9ABC565AAFB0 /* Pods-AlbumSearch.release.xcconfig */,
+				DEC28C3360BDC4AE9CB5E844 /* Pods-AlbumSearchTests.debug.xcconfig */,
+				60BA1C535D208B4031A1E209 /* Pods-AlbumSearchTests.release.xcconfig */,
+				D065A4864B8FA73B8CDEB1FC /* Pods-AlbumSearchUITests.debug.xcconfig */,
+				FFF508A2325E0402972FF3D2 /* Pods-AlbumSearchUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
 		AFE644E3228B82190060C14C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +118,7 @@
 				AFE6450E228B821A0060C14C /* AlbumSearchUITests */,
 				AFE644ED228B821A0060C14C /* Products */,
 				AFE6456E228B82B30060C14C /* Frameworks */,
+				8262466814B36CD904319C49 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,9 +138,8 @@
 				AFE644EF228B821A0060C14C /* AppDelegate.swift */,
 				AFE644F1228B821A0060C14C /* ViewController.swift */,
 				AFE644F3228B821A0060C14C /* Main.storyboard */,
-				AFE644F6228B821A0060C14C /* Assets.xcassets */,
 				AFE644F8228B821A0060C14C /* LaunchScreen.storyboard */,
-				AFE644FB228B821A0060C14C /* Info.plist */,
+				AFE64572228B856A0060C14C /* Resources */,
 			);
 			path = AlbumSearch;
 			sourceTree = "<group>";
@@ -133,8 +166,30 @@
 			isa = PBXGroup;
 			children = (
 				AFE6456F228B82B30060C14C /* AlbumSearchAPI.framework */,
+				2823AE8B74E9F489B9ECBB1D /* Pods_AlbumSearch.framework */,
+				FE36362932932C46501E9FA5 /* Pods_AlbumSearchTests.framework */,
+				CAD411C861BB8CDBECE264A5 /* Pods_AlbumSearchUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFE64572228B856A0060C14C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AFE644F6228B821A0060C14C /* Assets.xcassets */,
+				AFE644FB228B821A0060C14C /* Info.plist */,
+				AFE64573228B85990060C14C /* Generated */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AFE64573228B85990060C14C /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				AFE64574228B87790060C14C /* assets-images.swift */,
+				AFE64575228B877F0060C14C /* strings.swift */,
+			);
+			path = Generated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFE64514228B821A0060C14C /* Build configuration list for PBXNativeTarget "AlbumSearch" */;
 			buildPhases = (
+				89A1B1A2AB85A6F737512DA4 /* [CP] Check Pods Manifest.lock */,
 				AFE644E8228B821A0060C14C /* Sources */,
 				AFE644E9228B821A0060C14C /* Frameworks */,
 				AFE644EA228B821A0060C14C /* Resources */,
+				9F77BD8A4433F460A220FAC9 /* [CP] Embed Pods Frameworks */,
+				AFE64571228B84350060C14C /* Swiftgen */,
 			);
 			buildRules = (
 			);
@@ -161,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFE64517228B821A0060C14C /* Build configuration list for PBXNativeTarget "AlbumSearchTests" */;
 			buildPhases = (
+				8B7A044C2772F25FF8F47EFD /* [CP] Check Pods Manifest.lock */,
 				AFE644FC228B821A0060C14C /* Sources */,
 				AFE644FD228B821A0060C14C /* Frameworks */,
 				AFE644FE228B821A0060C14C /* Resources */,
@@ -179,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFE6451A228B821A0060C14C /* Build configuration list for PBXNativeTarget "AlbumSearchUITests" */;
 			buildPhases = (
+				88159E2FA5B03B00E789DCD8 /* [CP] Check Pods Manifest.lock */,
 				AFE64507228B821A0060C14C /* Sources */,
 				AFE64508228B821A0060C14C /* Frameworks */,
 				AFE64509228B821A0060C14C /* Resources */,
@@ -263,12 +323,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		88159E2FA5B03B00E789DCD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlbumSearchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89A1B1A2AB85A6F737512DA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlbumSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B7A044C2772F25FF8F47EFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlbumSearchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F77BD8A4433F460A220FAC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlbumSearch/Pods-AlbumSearch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlbumSearch/Pods-AlbumSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFE64571228B84350060C14C /* Swiftgen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftgen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$PODS_ROOT/SwiftGen/bin/swiftgen\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AFE644E8228B821A0060C14C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFE64576228B877F0060C14C /* assets-images.swift in Sources */,
 				AFE644F2228B821A0060C14C /* ViewController.swift in Sources */,
+				AFE64577228B877F0060C14C /* strings.swift in Sources */,
 				AFE644F0228B821A0060C14C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,10 +613,11 @@
 		};
 		AFE64515228B821A0060C14C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC928F16578128D4CC81E83 /* Pods-AlbumSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AlbumSearch/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AlbumSearch/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,10 +631,11 @@
 		};
 		AFE64516228B821A0060C14C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A0C2C5999BC9ABC565AAFB0 /* Pods-AlbumSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AlbumSearch/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AlbumSearch/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -476,6 +649,7 @@
 		};
 		AFE64518228B821A0060C14C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC28C3360BDC4AE9CB5E844 /* Pods-AlbumSearchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -496,6 +670,7 @@
 		};
 		AFE64519228B821A0060C14C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60BA1C535D208B4031A1E209 /* Pods-AlbumSearchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +691,7 @@
 		};
 		AFE6451B228B821A0060C14C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D065A4864B8FA73B8CDEB1FC /* Pods-AlbumSearchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +711,7 @@
 		};
 		AFE6451C228B821A0060C14C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF508A2325E0402972FF3D2 /* Pods-AlbumSearchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
