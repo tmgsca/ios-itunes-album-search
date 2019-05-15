@@ -88,6 +88,14 @@
 			path = Providers;
 			sourceTree = "<group>";
 		};
+		AFB5D195228B9F960006577F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AFE64558228B82560060C14C /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		AFE6454A228B82560060C14C = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +123,7 @@
 				AFB5D18A228B8BF20006577F /* AlbumSearchAPI.swift */,
 				AFB5D193228B93750006577F /* Providers */,
 				AFB5D192228B93680006577F /* Entities */,
-				AFE64558228B82560060C14C /* Info.plist */,
+				AFB5D195228B9F960006577F /* Resources */,
 			);
 			path = AlbumSearchAPI;
 			sourceTree = "<group>";
@@ -495,7 +503,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AlbumSearchAPI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AlbumSearchAPI/Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -522,7 +530,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AlbumSearchAPI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AlbumSearchAPI/Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
