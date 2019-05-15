@@ -27,18 +27,13 @@ public class AlbumSearchAPI {
             switch result {
             case let .success(response):
                 do {
-                    _ = try response.filterSuccessfulStatusCodes()
-                    do {
-                        let searchResult = try  response.map(SearchResult<Album>.self, using: self.jsonDecoder)
-                        callback?(.success(result: searchResult))
-                    } catch (let error) {
-                        callback?(.failure(error: error, reason: "Could not map the JSON"))
-                    }
+                    let searchResult = try response.filterSuccessfulStatusCodes().map(SearchResult<Album>.self, using: self.jsonDecoder)
+                    callback?(.success(result: searchResult))
                 } catch (let error) {
-                    callback?(.failure(error: error, reason: "Request failed with status code \(response.statusCode)"))
+                    callback?(.failure(error: error, reason: error.localizedDescription))
                 }
             case let .failure(error):
-                 callback?(.failure(error: error, reason: "Could not reach the server"))
+                callback?(.failure(error: error, reason: error.localizedDescription))
             }
         }
     }

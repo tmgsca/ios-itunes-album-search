@@ -9,13 +9,11 @@
 /* Begin PBXBuildFile section */
 		2F9379BE4E5255E0FE3C9E47 /* Pods_AlbumSearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD411C861BB8CDBECE264A5 /* Pods_AlbumSearchUITests.framework */; };
 		AFE644F0228B821A0060C14C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE644EF228B821A0060C14C /* AppDelegate.swift */; };
-		AFE644F2228B821A0060C14C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE644F1228B821A0060C14C /* ViewController.swift */; };
 		AFE644F5228B821A0060C14C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE644F3228B821A0060C14C /* Main.storyboard */; };
 		AFE644F7228B821A0060C14C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFE644F6228B821A0060C14C /* Assets.xcassets */; };
 		AFE644FA228B821A0060C14C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE644F8228B821A0060C14C /* LaunchScreen.storyboard */; };
 		AFE64505228B821A0060C14C /* AlbumSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE64504228B821A0060C14C /* AlbumSearchTests.swift */; };
 		AFE64510228B821A0060C14C /* AlbumSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE6450F228B821A0060C14C /* AlbumSearchUITests.swift */; };
-		AFE64570228B82B30060C14C /* AlbumSearchAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE6456F228B82B30060C14C /* AlbumSearchAPI.framework */; };
 		AFE64576228B877F0060C14C /* assets-images.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE64574228B87790060C14C /* assets-images.swift */; };
 		AFE64577228B877F0060C14C /* strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE64575228B877F0060C14C /* strings.swift */; };
 		C0220205261E21D03E8DF659 /* Pods_AlbumSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2823AE8B74E9F489B9ECBB1D /* Pods_AlbumSearch.framework */; };
@@ -46,7 +44,6 @@
 		7BC928F16578128D4CC81E83 /* Pods-AlbumSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlbumSearch.debug.xcconfig"; path = "Target Support Files/Pods-AlbumSearch/Pods-AlbumSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		AFE644EC228B821A0060C14C /* AlbumSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlbumSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE644EF228B821A0060C14C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFE644F1228B821A0060C14C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AFE644F4228B821A0060C14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFE644F6228B821A0060C14C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFE644F9228B821A0060C14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -72,7 +69,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFE64570228B82B30060C14C /* AlbumSearchAPI.framework in Frameworks */,
 				C0220205261E21D03E8DF659 /* Pods_AlbumSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				AFE644EF228B821A0060C14C /* AppDelegate.swift */,
-				AFE644F1228B821A0060C14C /* ViewController.swift */,
 				AFE644F3228B821A0060C14C /* Main.storyboard */,
 				AFE64572228B856A0060C14C /* Resources */,
 			);
@@ -438,7 +433,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFE64576228B877F0060C14C /* assets-images.swift in Sources */,
-				AFE644F2228B821A0060C14C /* ViewController.swift in Sources */,
 				AFE64577228B877F0060C14C /* strings.swift in Sources */,
 				AFE644F0228B821A0060C14C /* AppDelegate.swift in Sources */,
 			);
