@@ -11,24 +11,31 @@ import XCTest
 
 class AlbumSearchAPITests: XCTestCase {
 
+    var api: AlbumSearchAPI!
+    
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        api = AlbumSearchAPI.shared
     }
 
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        api = nil
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testRequestBlindGuardianAlbums() {
+        let expectation = self.expectation(description: "Request Finished")
+        var response: Outcome<SearchResult<Album>>?
+        api.queryAlbums(query: "Blind Guardian") { outcome in
+            response = outcome
+            expectation.fulfill()
+        }
+        waitForExpectations(timeout: 3.0, handler: nil)
+        XCTAssertNotNil(response)
+        switch response! {
+        case .success(let results):
+            XCTAssert(true)
+            XCTAssert(results.resultCount == 18)
+        case .failure:
+            XCTAssert(false)
         }
     }
-
 }

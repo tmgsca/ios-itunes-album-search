@@ -138,7 +138,6 @@
 				AFE644EF228B821A0060C14C /* AppDelegate.swift */,
 				AFE644F1228B821A0060C14C /* ViewController.swift */,
 				AFE644F3228B821A0060C14C /* Main.storyboard */,
-				AFE644F8228B821A0060C14C /* LaunchScreen.storyboard */,
 				AFE64572228B856A0060C14C /* Resources */,
 			);
 			path = AlbumSearch;
@@ -177,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				AFE644F6228B821A0060C14C /* Assets.xcassets */,
+				AFE644F8228B821A0060C14C /* LaunchScreen.storyboard */,
 				AFE644FB228B821A0060C14C /* Info.plist */,
 				AFE64573228B85990060C14C /* Generated */,
 			);
