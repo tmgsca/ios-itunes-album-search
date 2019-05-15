@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AlbumSearchAPI
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
