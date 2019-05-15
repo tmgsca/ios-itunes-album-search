@@ -10,8 +10,8 @@ import Foundation
 
 public struct SearchResult<E : Codable>: Codable {
     
-    let resultCount: Int
-    let results: [E]
+    public let resultCount: Int
+    public let results: [E]
     
     enum CodingKeys: String, CodingKey {
         case resultCount = "resultCount"

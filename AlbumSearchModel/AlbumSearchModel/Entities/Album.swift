@@ -10,11 +10,11 @@ import Foundation
 
 public struct Album : Codable {
     
-    let name: String
-    let releaseDate: Date
-    let currency: String
-    let price: Double
-    let artworkUrl: String
+    public let name: String
+    public let releaseDate: Date
+    public let currency: String
+    public let price: Double
+    public let artworkUrl: String
     
     enum CodingKeys : String, CodingKey {
         case name = "collectionName"

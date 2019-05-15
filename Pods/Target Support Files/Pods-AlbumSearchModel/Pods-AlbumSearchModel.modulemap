@@ -1,0 +1,6 @@
+framework module Pods_AlbumSearchModel {
+  umbrella header "Pods-AlbumSearchModel-umbrella.h"
+
+  export *
+  module * { export * }
+}

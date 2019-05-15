@@ -27,7 +27,7 @@
 		0A39AF55285A3A4F7CBABB6D822FA4A3 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BC37529A4F1DF869D8C389512A2E60 /* Alamofire.swift */; };
 		0B653C3F0DE526486D43A977BB6B61B1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F651FA824E9F445612BFD88AC16144 /* CFNetwork.framework */; };
 		0C21203BBEE5D2F63706F609C951E5F4 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919864EE161C6734B2201DA41E4D3AE5 /* AnimatedImageView.swift */; };
-		10C966D8BDB152C6747BB164626F7047 /* Pods-AlbumSearchAPITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 984B7F13DB1D8014A0B87C5CBA95A960 /* Pods-AlbumSearchAPITests-dummy.m */; };
+		10C966D8BDB152C6747BB164626F7047 /* Pods-AlbumSearchAPITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C52EE724E82F47093BDBB8EB321BCF01 /* Pods-AlbumSearchAPITests-dummy.m */; };
 		11F309B46EE6B36CB281409A579996C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBED768DB16C3C10D7F7F99BE1C8F38 /* Foundation.framework */; };
 		1211A2875F6B9815E3463532DE4457BA /* ImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE3356A8817BD39BFE80B24B478463D /* ImageDataProvider.swift */; };
 		149D4AB10D8C510BC71FFAE717A7FFF1 /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15321D663173313BF9E0B5487D590BC /* Runtime.swift */; };
@@ -41,6 +41,7 @@
 		355C18EEC82624A06A6CC93965258E33 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63356E24CBBA9FBFBC5D50994F49D494 /* Request.swift */; };
 		379DE04754CF74D74A431ECE86E99D10 /* KingfisherError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1225EDBA1248DB8EC1F67B74404D7A39 /* KingfisherError.swift */; };
 		37F01D2DEDDEE09EB48EE8D56C34C71F /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A809A58D18CEFE7F23093F895950D0A /* FormatIndicatedCacheSerializer.swift */; };
+		39DDBC28057175E91021557342C78D73 /* Pods-AlbumSearchModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF6A124318E9415005B5E48AF03FBB1 /* Pods-AlbumSearchModel-dummy.m */; };
 		3BD1DAFE1F3E6C9E4EB0F2099B6D6FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBED768DB16C3C10D7F7F99BE1C8F38 /* Foundation.framework */; };
 		3E0749AF6C51BCF0E4A41CF1D6A76FED /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF038104CC8A337534FF44913C5F3EF7 /* DispatchQueue+Alamofire.swift */; };
 		414BABA20C72C0F20B65B4C18F2B47EB /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E7C0DA3BDE2C1261234F925750576E /* Kingfisher.swift */; };
@@ -51,10 +52,11 @@
 		4A42935426AB30760B47ADDE1BB1C39D /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7515012CFFF0FFE6F7B21F0A14826C /* NoError.swift */; };
 		4ACE2DE480F2120350A45C6D93D80D21 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D308C4DCCDD5D95AEFDBD57C9094ECD /* String+MD5.swift */; };
 		4E99B38D51C87D3D652B88F935ABD508 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50094BE1335CD64E7C16529F3327EE99 /* Result.swift */; };
+		4EAB6F4C89359BC2F8BF19F51DFD5CF5 /* Pods-AlbumSearchModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D291930400E4172547FC89D6EFB937E2 /* Pods-AlbumSearchModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5172587B2A12990ECB146AFFDFA94527 /* ImageDownloaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5390D68C998C0E3BDFAE3F4ADCDBBE2 /* ImageDownloaderDelegate.swift */; };
 		52911C18730C950D3E2C1649EC2A4877 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACAF1FF2E8A3FF4FD26FEA5591EBE61 /* Box.swift */; };
-		56A0E3EB520F9EB3FDAE6E689805DEA9 /* Pods-AlbumSearch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF199F115BC5F1BF503D0AB71AA2CEA4 /* Pods-AlbumSearch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5709A67C6206E82F94CBF8BAA33E2977 /* Pods-AlbumSearchUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D2E2262A304C80AB5B38535ECD7143 /* Pods-AlbumSearchUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56A0E3EB520F9EB3FDAE6E689805DEA9 /* Pods-AlbumSearch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9D4DD393150E92A5EAB41A7C69324D /* Pods-AlbumSearch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5709A67C6206E82F94CBF8BAA33E2977 /* Pods-AlbumSearchUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C256C3F2EEECA08321F3778009C879B0 /* Pods-AlbumSearchUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D53EA65636A0B296726611E3C491CF7 /* Result-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2797DFCD416816B2CB8638EA96115C /* Result-dummy.m */; };
 		5D97ACC58BF197F2426B2C6853142DF5 /* NetworkActivityPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5231BCB336F012028E3D9A72B3E2E /* NetworkActivityPlugin.swift */; };
 		60B6C2A003864AAD3A426448152F67BE /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D156F980759A50779B5A81096D240A8 /* Timeline.swift */; };
@@ -65,7 +67,7 @@
 		68BB9452F3012913BABE12BE69C74785 /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E34C79531D68948FFDEC8CEC1A04C5 /* AnyEncodable.swift */; };
 		6AAA002A59C5011CB71E9B83E6803C6D /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3B48128D1B8C615E1602B13B9344B6 /* ResultProtocol.swift */; };
 		6CD02ED977E9578A77DF90842F2B6439 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBED768DB16C3C10D7F7F99BE1C8F38 /* Foundation.framework */; };
-		6D5537E4FEBC09EEA1B612F809D32794 /* Pods-AlbumSearchTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E97B4212CB12119BD2F6FE2C05E25FB /* Pods-AlbumSearchTests-dummy.m */; };
+		6D5537E4FEBC09EEA1B612F809D32794 /* Pods-AlbumSearchTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B02EE404DEA98F9A7386A3F16C207C3F /* Pods-AlbumSearchTests-dummy.m */; };
 		6E04C92190FD45451E6690122ABF62E9 /* Moya-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C7D8E40D2DAB45EA233D22A3BC1B2B7 /* Moya-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E64C6F2AF1EBF3B28AD5CC90D8D3E2F /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2B9754832C1E9362C76C5CB6B2479F /* AnyError.swift */; };
 		6EFD003458AE7F689DEA720A2030C261 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552E111FA2D038C7C53B2FE61C3A1A99 /* ResponseSerialization.swift */; };
@@ -107,22 +109,23 @@
 		B3F856C82E08A200778A2D3B4EEEAF6B /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4401648B9CF6C58216A2AB0ABEDD34 /* Source.swift */; };
 		B642F75A16A71ED991DB8A9DA65AD439 /* ValidationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A012E4A2A49E56E3AA4840CC9A78D /* ValidationType.swift */; };
 		B6F6E4CC26451E91B59FAE0F6841DC1F /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88889CAC23A233C511CF4FAC9AF48A35 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B75C9D5B0FF1CE226C3EFB0B8269ECC9 /* Pods-AlbumSearch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F80AD95FD5D5B62C210FDF927B7DBFCC /* Pods-AlbumSearch-dummy.m */; };
+		B75C9D5B0FF1CE226C3EFB0B8269ECC9 /* Pods-AlbumSearch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9F3DDA35E68A151DA301B79C839E07 /* Pods-AlbumSearch-dummy.m */; };
 		B97B28BD6A60275C2BD94C23C6A75CF9 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CA1D418A3AF69510E29560D37B986 /* ImageView+Kingfisher.swift */; };
 		BF075554C71A8C47A299A5923CFFBCA0 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91124F33B1A6C714E8E3EA72BACAA023 /* SessionDelegate.swift */; };
 		C098E80A491AB5270A8E284D8CE4969F /* SizeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC6A9DD24CA94A456CC5ADF38EC5C0 /* SizeExtensions.swift */; };
+		C3BA46C2F5BD71F5B8941D89D1C80E8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBED768DB16C3C10D7F7F99BE1C8F38 /* Foundation.framework */; };
 		C5A49CAAB41E281C266C192EADBE4EB7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621FFC33B1F5D5C5AD01F1892BDF2A7F /* Alamofire.framework */; };
 		C6049AC03F3EE5457F4D7E6244E4530A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBED768DB16C3C10D7F7F99BE1C8F38 /* Foundation.framework */; };
 		C835FE3D1AB075CC3C97C7D8A29EB52E /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DDBD2C7536734ADBA7918C0ECB5327 /* ImageCache.swift */; };
 		C9A82041B4FA6903DCEDF9261725CBD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBED768DB16C3C10D7F7F99BE1C8F38 /* Foundation.framework */; };
-		CA55D3D433CD56ACFA4CDD23AE3CCDBD /* Pods-AlbumSearchTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77A35E7EC85C2A00E97EF3EE47C1E5FC /* Pods-AlbumSearchTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA55D3D433CD56ACFA4CDD23AE3CCDBD /* Pods-AlbumSearchTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85CDBC02CD68223D2C3D59BB913541D2 /* Pods-AlbumSearchTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD321D15156EF51F506D6183152B0E1C /* MoyaProvider+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7DDAD8B646E1E2B982537CCEE85B90 /* MoyaProvider+Internal.swift */; };
-		CD64ADCA9FEFECF6329ED004AA6CD348 /* Pods-AlbumSearchAPITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 619794D9A39B6755F5393522352F04C1 /* Pods-AlbumSearchAPITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD64ADCA9FEFECF6329ED004AA6CD348 /* Pods-AlbumSearchAPITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA48BF8B4FD72CA19284E7AB1E592C4 /* Pods-AlbumSearchAPITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0D3B6F6481841FB0B0DC61653217179 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BB3366DD74FF376AD1FCF469E6C85 /* Response.swift */; };
 		D348D88FE7939869DE08BC623976B321 /* Moya-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B08D62FA4C76F3912D532CDC49D648F /* Moya-dummy.m */; };
 		D3FA0AA634AAEA99AB3FABC36BB4958C /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E980A538C1A47476437D2F41AFEFE064 /* SessionManager.swift */; };
 		DAF35A023F63F6C8E299B1B5D95C22FC /* DiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3FCD073C4BD71B71F78810251E3E49 /* DiskStorage.swift */; };
-		DBF2883B35D1C3ACF6886CA7A7CA9138 /* Pods-AlbumSearchAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2FDEE7326063A27490707309C5B15E /* Pods-AlbumSearchAPI-dummy.m */; };
+		DBF2883B35D1C3ACF6886CA7A7CA9138 /* Pods-AlbumSearchAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4148939C3B608E97B44D6495EEE247CD /* Pods-AlbumSearchAPI-dummy.m */; };
 		DD90258D5667ACC775417DE0E6EE6E77 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB411589485B1134A16E9DC5AF83F1E6 /* Result.framework */; };
 		DE6AC2459484032563903F1BFCCD3756 /* MoyaProvider+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDAFAC74EC1DA7583A64B6355B16138 /* MoyaProvider+Defaults.swift */; };
 		E3286CC606B95136095D34505A1D8B3D /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EAC1BB59004DCA76146364007D607E /* ImageModifier.swift */; };
@@ -134,9 +137,9 @@
 		F44AA7A6E15EFE1927FC41B447D6EFD1 /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3895D16CBEBF3AFDC6A0F3A6BFD6B95D /* Cancellable.swift */; };
 		F71F5515785421707384040642075A73 /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A754A394C4EDB76B3AFCD69822964DF /* Deprecated.swift */; };
 		F9266BA77A3D06BB96ACE51E5A469304 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0584FEC1DEF92C33091B99F6213BBE9D /* Image.swift */; };
-		FA308C35EB5BDCFA17589D57FF7BBC5B /* Pods-AlbumSearchAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D02481AEA0F3B1D5458B47EE7E07E5A2 /* Pods-AlbumSearchAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA308C35EB5BDCFA17589D57FF7BBC5B /* Pods-AlbumSearchAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FF63CD6978D95E00E2143E6B130F21C /* Pods-AlbumSearchAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA3A80D8CB3F70F903570BDF1438FA9D /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400C4D03A41DDF7143F1E4E11D2DC76 /* Storage.swift */; };
-		FCA704A69D9BA5F8455D028BB9582363 /* Pods-AlbumSearchUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46659BA261A4E5FD00487B6E74EB28F2 /* Pods-AlbumSearchUITests-dummy.m */; };
+		FCA704A69D9BA5F8455D028BB9582363 /* Pods-AlbumSearchUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B58AAD9970B79C605C6C591CF99D9882 /* Pods-AlbumSearchUITests-dummy.m */; };
 		FF38A3D897A7C4228CAA5CCA71401376 /* MoyaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392C36350BA129006772D919CE50A578 /* MoyaError.swift */; };
 /* End PBXBuildFile section */
 
@@ -250,45 +253,50 @@
 
 /* Begin PBXFileReference section */
 		0017EC16CD3FFA5236320035994BE5EA /* Result-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Result-Info.plist"; sourceTree = "<group>"; };
-		004FE9986924C9F3197C0EF0F0B9F76D /* Pods-AlbumSearchAPI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearchAPI-Info.plist"; sourceTree = "<group>"; };
-		02DA6E81FCAC17341580528C1B3A8B9A /* Pods_AlbumSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlbumSearchUITests.framework; path = "Pods-AlbumSearchUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		002A0CDA9D3C1308A38EB88B59F51AE5 /* Pods-AlbumSearchAPITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlbumSearchAPITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0584FEC1DEF92C33091B99F6213BBE9D /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image/Image.swift; sourceTree = "<group>"; };
+		064E86F7B912C4D8CE8B2E96E0AC56C5 /* Pods-AlbumSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		0810116BD14B824AC542E265A3259637 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/Networking/ImagePrefetcher.swift; sourceTree = "<group>"; };
+		087E8CB3656964B2C20D9B8E36B69C1A /* Pods_AlbumSearchModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlbumSearchModel.framework; path = "Pods-AlbumSearchModel.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C23B9C35026AF35B5E2EB01756FF17 /* ImageDataProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProcessor.swift; path = Sources/Networking/ImageDataProcessor.swift; sourceTree = "<group>"; };
 		0A5E2525397D46233D3A1C2301FAABC3 /* Result-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-umbrella.h"; sourceTree = "<group>"; };
 		0A7F90FBD8D8271B1E1A6932D0B87710 /* Task.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Task.swift; path = Sources/Moya/Task.swift; sourceTree = "<group>"; };
 		0C83A6929BC8FD9DE19923B16BE8B3B2 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Moya/Image.swift; sourceTree = "<group>"; };
 		0E962A816E1631ABCCDD04FEEF39AEC0 /* Result-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-prefix.pch"; sourceTree = "<group>"; };
 		0EB7D68D029DF322256E629C837A2C5A /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
+		0F3341DBB8A95642C3CB3D6FAB4E8E5D /* Pods-AlbumSearchAPI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearchAPI-acknowledgements.plist"; sourceTree = "<group>"; };
 		0F97C6129A1CE2A344ECEBB7763B6FEE /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		11E7233FB902333B5BD7F45F65EFB715 /* Pods_AlbumSearchAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlbumSearchAPI.framework; path = "Pods-AlbumSearchAPI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FF63CD6978D95E00E2143E6B130F21C /* Pods-AlbumSearchAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlbumSearchAPI-umbrella.h"; sourceTree = "<group>"; };
+		0FF6A124318E9415005B5E48AF03FBB1 /* Pods-AlbumSearchModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlbumSearchModel-dummy.m"; sourceTree = "<group>"; };
+		103649A6EDC92CF74BEEAAE792F7D8A0 /* Pods_AlbumSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlbumSearchUITests.framework; path = "Pods-AlbumSearchUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		107C8C6DEA33DEACB479FECD97E40D8E /* Pods-AlbumSearchModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearchModel-Info.plist"; sourceTree = "<group>"; };
+		1110F07ED81CDD29A09241F3010F2B95 /* Pods-AlbumSearchAPI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearchAPI-Info.plist"; sourceTree = "<group>"; };
+		12026045FC9835F01B00FD538B2943CB /* Pods-AlbumSearchUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearchUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1225EDBA1248DB8EC1F67B74404D7A39 /* KingfisherError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherError.swift; path = Sources/General/KingfisherError.swift; sourceTree = "<group>"; };
 		12DDBD2C7536734ADBA7918C0ECB5327 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/Cache/ImageCache.swift; sourceTree = "<group>"; };
+		149812A2E15BEEB188D8EEC01E5FE5F1 /* Pods-AlbumSearchAPITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearchAPITests-Info.plist"; sourceTree = "<group>"; };
 		150889EA28C6A4A52B443A42F85B3042 /* Moya.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Moya.xcconfig; sourceTree = "<group>"; };
 		162A09AA922124BAB5562946398E233A /* Endpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endpoint.swift; path = Sources/Moya/Endpoint.swift; sourceTree = "<group>"; };
-		18B95EEA724F4E77111EE78C86AAC633 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Result.framework; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		193E09B71AC23C3A720E5C0718EA39D1 /* SwiftGen.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.xcconfig; sourceTree = "<group>"; };
-		19B4BDDEF721DDE999EDA381028D0A02 /* Pods-AlbumSearchTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlbumSearchTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1C3B48128D1B8C615E1602B13B9344B6 /* ResultProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultProtocol.swift; path = Result/ResultProtocol.swift; sourceTree = "<group>"; };
 		1C7DDAD8B646E1E2B982537CCEE85B90 /* MoyaProvider+Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MoyaProvider+Internal.swift"; path = "Sources/Moya/MoyaProvider+Internal.swift"; sourceTree = "<group>"; };
 		1CCDA5D1158A6FF995FFC21C2378F062 /* Result.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Result.modulemap; sourceTree = "<group>"; };
-		1CE13FA2CEE1B5A2B41431DB9C3C99C7 /* Pods-AlbumSearch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlbumSearch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D146674F36BDBDE8A2BE76AB4D89C45 /* Pods-AlbumSearchAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearchAPITests.release.xcconfig"; sourceTree = "<group>"; };
 		1D156F980759A50779B5A81096D240A8 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		1D308C4DCCDD5D95AEFDBD57C9094ECD /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/Utility/String+MD5.swift"; sourceTree = "<group>"; };
+		21A15DE6ABF00B60A7AD8550EB46D511 /* Pods-AlbumSearchTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearchTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		21E7C0DA3BDE2C1261234F925750576E /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/General/Kingfisher.swift; sourceTree = "<group>"; };
 		21EAC1BB59004DCA76146364007D607E /* ImageModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageModifier.swift; path = Sources/Networking/ImageModifier.swift; sourceTree = "<group>"; };
-		23A1849D20D96465DF620D8451F18CDF /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Moya.framework; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2740E941009225E1923270555A00DCAD /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
-		2855415B4CC697233205FF6B41699D2B /* Pods-AlbumSearchUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlbumSearchUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2901DAEE03FE4FBFDAA6E99F7A64727B /* Pods-AlbumSearchAPITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlbumSearchAPITests-frameworks.sh"; sourceTree = "<group>"; };
 		2BA5231BCB336F012028E3D9A72B3E2E /* NetworkActivityPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkActivityPlugin.swift; path = Sources/Moya/Plugins/NetworkActivityPlugin.swift; sourceTree = "<group>"; };
 		2BB111C3A374A50546F9CF05C38B95B2 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/Extensions/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
 		2BE5E7246EA654BC586C5B5095229B33 /* MoyaProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoyaProvider.swift; path = Sources/Moya/MoyaProvider.swift; sourceTree = "<group>"; };
 		2C4D0A01D36DD4BD2CB0E518A431B381 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		2D3B981538BF356190BCA81A5343559C /* Pods-AlbumSearchTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearchTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D2BA6F84CF4E4B10B1ABB09E3411FF0 /* Pods-AlbumSearchModel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlbumSearchModel-acknowledgements.markdown"; sourceTree = "<group>"; };
 		303DC278BC4399C1A8988A60D937FDD3 /* ImageFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFormat.swift; path = Sources/Image/ImageFormat.swift; sourceTree = "<group>"; };
 		316E69431CB84B00128A8FC90959EEAE /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Image/Filter.swift; sourceTree = "<group>"; };
 		324A9F15A135E31A5BAF23A984BD3AE9 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		33D09E649681259B3368DB1AE2B13A53 /* Pods_AlbumSearchAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlbumSearchAPITests.framework; path = "Pods-AlbumSearchAPITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C5D17819A93BE8F1F6ED001A6DED6B /* Moya-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Moya-Info.plist"; sourceTree = "<group>"; };
 		378A852A0CB78DBFC00C64CA3D6AAF74 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/Image/ImageProcessor.swift; sourceTree = "<group>"; };
 		37B29F27BD27E398CE2C5D8D9CFB538D /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
@@ -296,67 +304,61 @@
 		392C36350BA129006772D919CE50A578 /* MoyaError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoyaError.swift; path = Sources/Moya/MoyaError.swift; sourceTree = "<group>"; };
 		39BC37529A4F1DF869D8C389512A2E60 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		39FE24D0B8A3A3A7F905109F324A7B88 /* MemoryStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryStorage.swift; path = Sources/Cache/MemoryStorage.swift; sourceTree = "<group>"; };
-		3A30E9EF9B493D27EE498B543988726D /* Pods-AlbumSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3B3FCD073C4BD71B71F78810251E3E49 /* DiskStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskStorage.swift; path = Sources/Cache/DiskStorage.swift; sourceTree = "<group>"; };
+		3BC99D49F08C60A63F5ECD4F738C253F /* Pods-AlbumSearchAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearchAPI.release.xcconfig"; sourceTree = "<group>"; };
 		3DCC6A9DD24CA94A456CC5ADF38EC5C0 /* SizeExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SizeExtensions.swift; path = Sources/Utility/SizeExtensions.swift; sourceTree = "<group>"; };
-		43D2E2262A304C80AB5B38535ECD7143 /* Pods-AlbumSearchUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlbumSearchUITests-umbrella.h"; sourceTree = "<group>"; };
+		4148939C3B608E97B44D6495EEE247CD /* Pods-AlbumSearchAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlbumSearchAPI-dummy.m"; sourceTree = "<group>"; };
 		44BB9E255C89A3FA9C473177DF0CE6F6 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		4542F11632F5B536669BA83B851ED695 /* Moya+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Moya+Alamofire.swift"; path = "Sources/Moya/Moya+Alamofire.swift"; sourceTree = "<group>"; };
+		4627802A2E2F62F837AE61E2A3567183 /* Pods-AlbumSearchAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearchAPI.debug.xcconfig"; sourceTree = "<group>"; };
 		4655524AEAC95A5B803C004695ECB2AE /* Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delegate.swift; path = Sources/Utility/Delegate.swift; sourceTree = "<group>"; };
-		46659BA261A4E5FD00487B6E74EB28F2 /* Pods-AlbumSearchUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlbumSearchUITests-dummy.m"; sourceTree = "<group>"; };
-		491A3E40FC58B1F8302AD108FDB9B018 /* Pods-AlbumSearchUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearchUITests-Info.plist"; sourceTree = "<group>"; };
-		4982B954EC416E2F68F9D0B0FC16600C /* Pods-AlbumSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		4A68D63DE976B1CD89D911C1E00D1920 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9AE654CD4A1796BB47D55564C07DA4 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Result/Result.swift; sourceTree = "<group>"; };
-		4E97B4212CB12119BD2F6FE2C05E25FB /* Pods-AlbumSearchTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlbumSearchTests-dummy.m"; sourceTree = "<group>"; };
-		4F2FDEE7326063A27490707309C5B15E /* Pods-AlbumSearchAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlbumSearchAPI-dummy.m"; sourceTree = "<group>"; };
+		4C78BF1A83565E75207A1994AAE386A9 /* Pods-AlbumSearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlbumSearch.modulemap"; sourceTree = "<group>"; };
+		4CDC256E255EA4C5D9D6C85EFDC1884B /* Pods-AlbumSearchTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlbumSearchTests.modulemap"; sourceTree = "<group>"; };
 		50094BE1335CD64E7C16529F3327EE99 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Utility/Result.swift; sourceTree = "<group>"; };
-		5018864203DB88006855B3B4C30F47CB /* Pods-AlbumSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		512E47C531EB13F0D73BE3EA8163D3D3 /* Pods-AlbumSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		52C0924EBCDD3B54C63960CFF92599AA /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		54E12510254F2ECF248DF0038C52EAD6 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		54FE9A2F435948B156A2B3E6274CDB89 /* Pods-AlbumSearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlbumSearch.modulemap"; sourceTree = "<group>"; };
 		552E111FA2D038C7C53B2FE61C3A1A99 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		569DB20F57231B719DC0BA49EB1022D5 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		59D8DBA8C2DD59114FD03D4D03B32B06 /* ImageDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDrawing.swift; path = Sources/Image/ImageDrawing.swift; sourceTree = "<group>"; };
 		5A2B9754832C1E9362C76C5CB6B2479F /* AnyError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyError.swift; path = Result/AnyError.swift; sourceTree = "<group>"; };
-		5CDEA87C401D0759711BABEA7E8340A1 /* Pods-AlbumSearchAPI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlbumSearchAPI-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5EF53D10DB143D6693B1A7FD4F6E9DC7 /* MultiTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiTarget.swift; path = Sources/Moya/MultiTarget.swift; sourceTree = "<group>"; };
-		615591CDBBD0F48046841C71ED91D4AA /* Pods-AlbumSearchAPITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlbumSearchAPITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		619794D9A39B6755F5393522352F04C1 /* Pods-AlbumSearchAPITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlbumSearchAPITests-umbrella.h"; sourceTree = "<group>"; };
 		621FFC33B1F5D5C5AD01F1892BDF2A7F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63356E24CBBA9FBFBC5D50994F49D494 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		64CBCB2CD5769990218AB8A752A7FB8A /* Kingfisher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Kingfisher-Info.plist"; sourceTree = "<group>"; };
+		667B3E33C85CF23513A708C1A5E7ADA7 /* Pods_AlbumSearchAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlbumSearchAPI.framework; path = "Pods-AlbumSearchAPI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		688B5CA052A8933DD1E780DF5132D2C3 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		6A1A1D324FFB4DB2E86F1BEE6C6B1E02 /* SessionDataTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDataTask.swift; path = Sources/Networking/SessionDataTask.swift; sourceTree = "<group>"; };
 		6C7D8E40D2DAB45EA233D22A3BC1B2B7 /* Moya-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moya-umbrella.h"; sourceTree = "<group>"; };
+		6CC3DE9B0D9086595B5011AA863258DA /* Pods-AlbumSearchModel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearchModel-acknowledgements.plist"; sourceTree = "<group>"; };
 		73CB604D8FDCDA39BDCB7E6198373EE2 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/General/KingfisherManager.swift; sourceTree = "<group>"; };
-		77A35E7EC85C2A00E97EF3EE47C1E5FC /* Pods-AlbumSearchTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlbumSearchTests-umbrella.h"; sourceTree = "<group>"; };
-		78A2A6CD74173C11B94DBFCE86C64AE0 /* Pods-AlbumSearchAPITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearchAPITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		79BD0B92FE89B9365C415A678FB15FC2 /* Pods-AlbumSearch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearch-Info.plist"; sourceTree = "<group>"; };
+		749A92B59CD7489135E5271E24997768 /* Pods-AlbumSearch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlbumSearch-frameworks.sh"; sourceTree = "<group>"; };
 		7A754A394C4EDB76B3AFCD69822964DF /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = Sources/General/Deprecated.swift; sourceTree = "<group>"; };
 		7BA7B5966B1764A26A0AE9460930ECF1 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		7FE3356A8817BD39BFE80B24B478463D /* ImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProvider.swift; path = Sources/General/ImageSource/ImageDataProvider.swift; sourceTree = "<group>"; };
 		830FD1FA4B94AD7091A4D0EC30474675 /* CallbackQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallbackQueue.swift; path = Sources/Utility/CallbackQueue.swift; sourceTree = "<group>"; };
 		83F651FA824E9F445612BFD88AC16144 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		8586A77C58D5EE8CAEDAE8B3C1A70D46 /* Pods-AlbumSearchAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlbumSearchAPI.modulemap"; sourceTree = "<group>"; };
+		85CDBC02CD68223D2C3D59BB913541D2 /* Pods-AlbumSearchTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlbumSearchTests-umbrella.h"; sourceTree = "<group>"; };
 		866DAF96E5115B032CEB40383E93DB16 /* URL+Moya.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Moya.swift"; path = "Sources/Moya/URL+Moya.swift"; sourceTree = "<group>"; };
 		88889CAC23A233C511CF4FAC9AF48A35 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		8A0BF438D5249E4D88BC5F0AD677942E /* Pods-AlbumSearchUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlbumSearchUITests.modulemap"; sourceTree = "<group>"; };
+		8A502D15BC1EB95D274C8D380BB4F9BD /* Pods-AlbumSearch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearch-Info.plist"; sourceTree = "<group>"; };
+		8A9D4DD393150E92A5EAB41A7C69324D /* Pods-AlbumSearch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlbumSearch-umbrella.h"; sourceTree = "<group>"; };
 		8AFD5082790A3AD466439F756B7926FF /* AccessTokenPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessTokenPlugin.swift; path = Sources/Moya/Plugins/AccessTokenPlugin.swift; sourceTree = "<group>"; };
 		8B4C6332BCE7B6E4E4527E5775E3B569 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Sources/Networking/RedirectHandler.swift; sourceTree = "<group>"; };
-		8D3C2D9C6E066ACDD897538CDB6A5E05 /* Pods-AlbumSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearch.release.xcconfig"; sourceTree = "<group>"; };
 		8F8BB3366DD74FF376AD1FCF469E6C85 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Sources/Moya/Response.swift; sourceTree = "<group>"; };
 		90E34C79531D68948FFDEC8CEC1A04C5 /* AnyEncodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyEncodable.swift; path = Sources/Moya/AnyEncodable.swift; sourceTree = "<group>"; };
 		91124F33B1A6C714E8E3EA72BACAA023 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Sources/Networking/SessionDelegate.swift; sourceTree = "<group>"; };
 		91256CC16BBA654252E32FD3644954C4 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		919864EE161C6734B2201DA41E4D3AE5 /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/Views/AnimatedImageView.swift; sourceTree = "<group>"; };
-		9434F90E796AD17CB1F6A5BF1DF6AC68 /* Pods-AlbumSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearchTests.release.xcconfig"; sourceTree = "<group>"; };
-		94849C4416800F0A915205D457C61A9A /* Pods-AlbumSearchAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearchAPITests.debug.xcconfig"; sourceTree = "<group>"; };
-		94C2C414E5BA3C558A035A9A6B7D8020 /* Pods-AlbumSearch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearch-acknowledgements.plist"; sourceTree = "<group>"; };
-		9799E9156CDFF2E0E12AFC035DC22DB8 /* Pods-AlbumSearchAPI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearchAPI-acknowledgements.plist"; sourceTree = "<group>"; };
-		984B7F13DB1D8014A0B87C5CBA95A960 /* Pods-AlbumSearchAPITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlbumSearchAPITests-dummy.m"; sourceTree = "<group>"; };
-		98EBFF35BFE2C358750473E9E202B1ED /* Pods-AlbumSearchUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlbumSearchUITests.modulemap"; sourceTree = "<group>"; };
+		921B414C76CE7B8CDAE2DEE8E60AB0BF /* Pods-AlbumSearchUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearchUITests-Info.plist"; sourceTree = "<group>"; };
+		98C8DF11F339A26BAE77127D07E55AE9 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F1FC2163D06CC95EDE2C80497A582E /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Sources/Moya/MultipartFormData.swift; sourceTree = "<group>"; };
 		99466463AC02BAD66E3766C22DD2CE99 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		997E25831741B08A92D7B65844B45C5B /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Views/Indicator.swift; sourceTree = "<group>"; };
+		99BF0D8A79813E6996DB6B61C9BB6F6F /* Pods-AlbumSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearch.release.xcconfig"; sourceTree = "<group>"; };
 		9A0736B0372CBA25E121CD489516F34C /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/Networking/ImageDownloader.swift; sourceTree = "<group>"; };
 		9A809A58D18CEFE7F23093F895950D0A /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/Cache/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
 		9B08D62FA4C76F3912D532CDC49D648F /* Moya-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Moya-dummy.m"; sourceTree = "<group>"; };
@@ -365,60 +367,70 @@
 		9CC47AAC8B90EDB5C160BFD6F37B2DB7 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EE46D2FC27BF6F14886A385BF41BCBD /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/Cache/CacheSerializer.swift; sourceTree = "<group>"; };
+		A30572DFC1EE3397D1E2EBCD7E3AFB3F /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Result.framework; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B8F42CC54273C15F1F78DA338C728B /* Pods-AlbumSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A4FA76A56FDD7647C857B5FB9322490D /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		A58C85D6E24044768232B9F5AFEA0603 /* Moya.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Moya.modulemap; sourceTree = "<group>"; };
 		AABA28284F4291CDD12FB4F8E264BEA8 /* ExtensionHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionHelpers.swift; path = Sources/Utility/ExtensionHelpers.swift; sourceTree = "<group>"; };
 		AAC4AC73CB64157670CD276E0F8761B6 /* NetworkLoggerPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkLoggerPlugin.swift; path = Sources/Moya/Plugins/NetworkLoggerPlugin.swift; sourceTree = "<group>"; };
 		ABF92034D86EECB548301FA42ACBD7A6 /* CredentialsPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CredentialsPlugin.swift; path = Sources/Moya/Plugins/CredentialsPlugin.swift; sourceTree = "<group>"; };
 		ADCA08ECC9C03A7381BB59EB50C3CE64 /* AuthenticationChallengeResponsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationChallengeResponsable.swift; path = Sources/Networking/AuthenticationChallengeResponsable.swift; sourceTree = "<group>"; };
-		B06DDEC5765089731FFD7AF0789378C7 /* Pods-AlbumSearchTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearchTests-Info.plist"; sourceTree = "<group>"; };
-		B07614ABA5BA08C614D3F0129EA6919B /* Pods-AlbumSearchAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearchAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		B02EE404DEA98F9A7386A3F16C207C3F /* Pods-AlbumSearchTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlbumSearchTests-dummy.m"; sourceTree = "<group>"; };
+		B09DC03D80FD0D8B87DABC06DDA4CFD8 /* Pods_AlbumSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlbumSearchTests.framework; path = "Pods-AlbumSearchTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0DAB41C89C5C84798374B69BD8C9768 /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
-		B0FF17DE51F81FEE7E86D5EBFA364C1E /* Pods-AlbumSearchAPITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlbumSearchAPITests.modulemap"; sourceTree = "<group>"; };
-		B216E2F475BDC92F53FB46A2FCE741F5 /* Pods-AlbumSearchAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlbumSearchAPI.modulemap"; sourceTree = "<group>"; };
+		B0F9677474BD6B8CBA64DE6FFA3B3034 /* Pods-AlbumSearch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearch-acknowledgements.plist"; sourceTree = "<group>"; };
+		B2208DF29C0A90406323BC38C9E9059B /* Pods-AlbumSearchTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearchTests-Info.plist"; sourceTree = "<group>"; };
 		B23CA1D418A3AF69510E29560D37B986 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/Extensions/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
-		B3E1FD96FFF029BAA78D6933277A5A70 /* Pods-AlbumSearch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlbumSearch-frameworks.sh"; sourceTree = "<group>"; };
-		B6C4EC6AD6A4DE1B8D50B1211B3D865E /* Pods-AlbumSearchAPITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearchAPITests-Info.plist"; sourceTree = "<group>"; };
+		B260B3045655F3DD1947FD2EA44024F1 /* Pods-AlbumSearchAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearchAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B58AAD9970B79C605C6C591CF99D9882 /* Pods-AlbumSearchUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlbumSearchUITests-dummy.m"; sourceTree = "<group>"; };
+		B643441C5BEA0289A1F97FB702D7B2C4 /* Pods-AlbumSearchAPI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlbumSearchAPI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA2E90103076BB1076DF4CF0C2C848D6 /* Pods-AlbumSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB411589485B1134A16E9DC5AF83F1E6 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF0CCF21CB83E7705E83AE566D8EFB8 /* GIFAnimatedImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIFAnimatedImage.swift; path = Sources/Image/GIFAnimatedImage.swift; sourceTree = "<group>"; };
 		BECDB0DA7B2B73D6B1B2FDA68035F402 /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
 		BFE8319B86EA204260E43A424D5D7A14 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
-		C1EE774563E0A2D4CA247867EED080DF /* Pods-AlbumSearchTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlbumSearchTests.modulemap"; sourceTree = "<group>"; };
+		C0CE80992150B55BE3FE18F47757D30E /* Pods-AlbumSearchModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlbumSearchModel.modulemap"; sourceTree = "<group>"; };
+		C121F32D74AE619DF2B23306B4533E46 /* Pods-AlbumSearchAPITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearchAPITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C2165BA7B1559D85505EEA78E246ED2D /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Moya.framework; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C256C3F2EEECA08321F3778009C879B0 /* Pods-AlbumSearchUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlbumSearchUITests-umbrella.h"; sourceTree = "<group>"; };
 		C2B541ECCDC21DA5A5A7C6525D9A48E3 /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kingfisher.modulemap; sourceTree = "<group>"; };
 		C2C6A3A41554B65D6B6CB73D6F56B240 /* Plugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Plugin.swift; path = Sources/Moya/Plugin.swift; sourceTree = "<group>"; };
-		C765CD1FF9A80D599CEE94BA4A669DC9 /* Pods-AlbumSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearch.debug.xcconfig"; sourceTree = "<group>"; };
-		C76C3775ABA1E967BD7D696BC5044B64 /* Pods-AlbumSearchAPITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlbumSearchAPITests-frameworks.sh"; sourceTree = "<group>"; };
-		C96A33CECF06F7900E2A3B3B8E19DD4C /* Pods-AlbumSearchAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearchAPI.release.xcconfig"; sourceTree = "<group>"; };
+		C52EE724E82F47093BDBB8EB321BCF01 /* Pods-AlbumSearchAPITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlbumSearchAPITests-dummy.m"; sourceTree = "<group>"; };
+		C559094050BF3CB4F518EF3B65766E98 /* Pods-AlbumSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearchTests.release.xcconfig"; sourceTree = "<group>"; };
 		C9ACAA066DB683C84CEE5C3F2AFD42EC /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/Image/ImageTransition.swift; sourceTree = "<group>"; };
-		C9EF5CC13AB57BE740B2B38DD357C71B /* Pods-AlbumSearchUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlbumSearchUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CACAF1FF2E8A3FF4FD26FEA5591EBE61 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Utility/Box.swift; sourceTree = "<group>"; };
 		CB6892CDE7411CF30E72BED06492282B /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/General/ImageSource/Resource.swift; sourceTree = "<group>"; };
+		CB9C8F9F0FA1F37AC450E2AEE07F5C77 /* Pods-AlbumSearchAPITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlbumSearchAPITests.modulemap"; sourceTree = "<group>"; };
+		CC176A46A2FD62876B0350CA0561F6B8 /* Pods-AlbumSearchModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearchModel.release.xcconfig"; sourceTree = "<group>"; };
 		CE3F23367F05B9F0DB8E4D38D03E3A55 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		CF4401648B9CF6C58216A2AB0ABEDD34 /* Source.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Source.swift; path = Sources/General/ImageSource/Source.swift; sourceTree = "<group>"; };
-		CFDC1C8F69E522945FBED4D900884479 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D02481AEA0F3B1D5458B47EE7E07E5A2 /* Pods-AlbumSearchAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlbumSearchAPI-umbrella.h"; sourceTree = "<group>"; };
+		CFA48BF8B4FD72CA19284E7AB1E592C4 /* Pods-AlbumSearchAPITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlbumSearchAPITests-umbrella.h"; sourceTree = "<group>"; };
+		D094C29E2F4BCE08B7A7ECC055F9FB36 /* Pods-AlbumSearchUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlbumSearchUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D291930400E4172547FC89D6EFB937E2 /* Pods-AlbumSearchModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlbumSearchModel-umbrella.h"; sourceTree = "<group>"; };
 		D3CD376C0172A045521D1ED9B23CA88E /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/Networking/RequestModifier.swift; sourceTree = "<group>"; };
+		DC2A1CA07F6F47F064EF2EB124332E28 /* Pods-AlbumSearchModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearchModel.debug.xcconfig"; sourceTree = "<group>"; };
+		DCD5D4EA238BF1ABF69B97F084A601A6 /* Pods-AlbumSearch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlbumSearch-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DE24994566F60B2FA04FB37D1CDCC0E2 /* URLRequest+Encoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Encoding.swift"; path = "Sources/Moya/URLRequest+Encoding.swift"; sourceTree = "<group>"; };
-		DF199F115BC5F1BF503D0AB71AA2CEA4 /* Pods-AlbumSearch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlbumSearch-umbrella.h"; sourceTree = "<group>"; };
 		E048DE8C7BB9FCE1C69953B08927CDBA /* Moya-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moya-prefix.pch"; sourceTree = "<group>"; };
-		E394A76035B1900D202057A69A2EF3A0 /* Pods_AlbumSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlbumSearchTests.framework; path = "Pods-AlbumSearchTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E400C4D03A41DDF7143F1E4E11D2DC76 /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = Sources/Cache/Storage.swift; sourceTree = "<group>"; };
 		E5390D68C998C0E3BDFAE3F4ADCDBBE2 /* ImageDownloaderDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloaderDelegate.swift; path = Sources/Networking/ImageDownloaderDelegate.swift; sourceTree = "<group>"; };
 		E5772FF41C164D5DC22FFBBC870FC53E /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
+		E67A87545B48D56AE69A1DC99C073B8B /* Pods-AlbumSearchTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlbumSearchTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6D7DC16E53673D33E17CF4CEC135FE6 /* Pods_AlbumSearchAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlbumSearchAPITests.framework; path = "Pods-AlbumSearchAPITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E980A538C1A47476437D2F41AFEFE064 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		EB3A012E4A2A49E56E3AA4840CC9A78D /* ValidationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationType.swift; path = Sources/Moya/ValidationType.swift; sourceTree = "<group>"; };
+		EC9F3DDA35E68A151DA301B79C839E07 /* Pods-AlbumSearch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlbumSearch-dummy.m"; sourceTree = "<group>"; };
 		ED2797DFCD416816B2CB8638EA96115C /* Result-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Result-dummy.m"; sourceTree = "<group>"; };
+		ED8884A5BDC783B8DA2C68DC14239B90 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDAFAC74EC1DA7583A64B6355B16138 /* MoyaProvider+Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MoyaProvider+Defaults.swift"; path = "Sources/Moya/MoyaProvider+Defaults.swift"; sourceTree = "<group>"; };
 		EE7515012CFFF0FFE6F7B21F0A14826C /* NoError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoError.swift; path = Result/NoError.swift; sourceTree = "<group>"; };
 		EF038104CC8A337534FF44913C5F3EF7 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		EF4DF166AA669732C6663E5E5AC12907 /* TargetType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TargetType.swift; path = Sources/Moya/TargetType.swift; sourceTree = "<group>"; };
-		EF75EFE752F7BDEC470F93F9ACC58EF0 /* Pods-AlbumSearchAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlbumSearchAPI.debug.xcconfig"; sourceTree = "<group>"; };
 		F15321D663173313BF9E0B5487D590BC /* Runtime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Runtime.swift; path = Sources/Utility/Runtime.swift; sourceTree = "<group>"; };
 		F3032E0B1D2875EAB6B1A3A0147B6E29 /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Image/Placeholder.swift; sourceTree = "<group>"; };
 		F5B093FE1E52612B3065A2CD4322C293 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		F6D613B6EA4A554B8C0DCA5A2581CD13 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/General/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
-		F7D356299160A8C7B56ACEB982FD6EAE /* Pods_AlbumSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlbumSearch.framework; path = "Pods-AlbumSearch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F80AD95FD5D5B62C210FDF927B7DBFCC /* Pods-AlbumSearch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlbumSearch-dummy.m"; sourceTree = "<group>"; };
+		FE84F623DC06E5A31D544EA9588C10E5 /* Pods_AlbumSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlbumSearch.framework; path = "Pods-AlbumSearch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -482,6 +494,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		978EF344E74B5447F3954E886ACD2AB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3BA46C2F5BD71F5B8941D89D1C80E8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D69D8E6FDA5832AD5126F07E72428E5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -537,6 +557,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		3C006CA957500F2EF5CE28FC32C98EE0 /* Pods-AlbumSearch */ = {
+			isa = PBXGroup;
+			children = (
+				4C78BF1A83565E75207A1994AAE386A9 /* Pods-AlbumSearch.modulemap */,
+				DCD5D4EA238BF1ABF69B97F084A601A6 /* Pods-AlbumSearch-acknowledgements.markdown */,
+				B0F9677474BD6B8CBA64DE6FFA3B3034 /* Pods-AlbumSearch-acknowledgements.plist */,
+				EC9F3DDA35E68A151DA301B79C839E07 /* Pods-AlbumSearch-dummy.m */,
+				749A92B59CD7489135E5271E24997768 /* Pods-AlbumSearch-frameworks.sh */,
+				8A502D15BC1EB95D274C8D380BB4F9BD /* Pods-AlbumSearch-Info.plist */,
+				8A9D4DD393150E92A5EAB41A7C69324D /* Pods-AlbumSearch-umbrella.h */,
+				064E86F7B912C4D8CE8B2E96E0AC56C5 /* Pods-AlbumSearch.debug.xcconfig */,
+				99BF0D8A79813E6996DB6B61C9BB6F6F /* Pods-AlbumSearch.release.xcconfig */,
+			);
+			name = "Pods-AlbumSearch";
+			path = "Target Support Files/Pods-AlbumSearch";
+			sourceTree = "<group>";
+		};
 		3DFE7EC9DCDA5261A2449389A9B4F7D9 /* SwiftGen */ = {
 			isa = PBXGroup;
 			children = (
@@ -544,6 +581,39 @@
 			);
 			name = SwiftGen;
 			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		3F2D350586EBD9CEF064099D41C01294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98C8DF11F339A26BAE77127D07E55AE9 /* Alamofire.framework */,
+				ED8884A5BDC783B8DA2C68DC14239B90 /* Kingfisher.framework */,
+				C2165BA7B1559D85505EEA78E246ED2D /* Moya.framework */,
+				FE84F623DC06E5A31D544EA9588C10E5 /* Pods_AlbumSearch.framework */,
+				667B3E33C85CF23513A708C1A5E7ADA7 /* Pods_AlbumSearchAPI.framework */,
+				E6D7DC16E53673D33E17CF4CEC135FE6 /* Pods_AlbumSearchAPITests.framework */,
+				087E8CB3656964B2C20D9B8E36B69C1A /* Pods_AlbumSearchModel.framework */,
+				B09DC03D80FD0D8B87DABC06DDA4CFD8 /* Pods_AlbumSearchTests.framework */,
+				103649A6EDC92CF74BEEAAE792F7D8A0 /* Pods_AlbumSearchUITests.framework */,
+				A30572DFC1EE3397D1E2EBCD7E3AFB3F /* Result.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		442E16726C882FEEDEC6EDF6D49C9649 /* Pods-AlbumSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A0BF438D5249E4D88BC5F0AD677942E /* Pods-AlbumSearchUITests.modulemap */,
+				D094C29E2F4BCE08B7A7ECC055F9FB36 /* Pods-AlbumSearchUITests-acknowledgements.markdown */,
+				12026045FC9835F01B00FD538B2943CB /* Pods-AlbumSearchUITests-acknowledgements.plist */,
+				B58AAD9970B79C605C6C591CF99D9882 /* Pods-AlbumSearchUITests-dummy.m */,
+				921B414C76CE7B8CDAE2DEE8E60AB0BF /* Pods-AlbumSearchUITests-Info.plist */,
+				C256C3F2EEECA08321F3778009C879B0 /* Pods-AlbumSearchUITests-umbrella.h */,
+				512E47C531EB13F0D73BE3EA8163D3D3 /* Pods-AlbumSearchUITests.debug.xcconfig */,
+				A3B8F42CC54273C15F1F78DA338C728B /* Pods-AlbumSearchUITests.release.xcconfig */,
+			);
+			name = "Pods-AlbumSearchUITests";
+			path = "Target Support Files/Pods-AlbumSearchUITests";
 			sourceTree = "<group>";
 		};
 		50ABE6EC4C7B80E96CEAE2B4B8258D0C /* Core */ = {
@@ -575,6 +645,35 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		56B5690FD0B06C1B02C17AD9D02565A3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C006CA957500F2EF5CE28FC32C98EE0 /* Pods-AlbumSearch */,
+				5ACC31BFC77122FF2619AA4136646F6B /* Pods-AlbumSearchAPI */,
+				632BC3DACC327053F1D46A6026863302 /* Pods-AlbumSearchAPITests */,
+				68AD061499E6DB433952F42CD1D469A6 /* Pods-AlbumSearchModel */,
+				8A4F65ABB49546970C62810BA0A0A7BF /* Pods-AlbumSearchTests */,
+				442E16726C882FEEDEC6EDF6D49C9649 /* Pods-AlbumSearchUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5ACC31BFC77122FF2619AA4136646F6B /* Pods-AlbumSearchAPI */ = {
+			isa = PBXGroup;
+			children = (
+				8586A77C58D5EE8CAEDAE8B3C1A70D46 /* Pods-AlbumSearchAPI.modulemap */,
+				B643441C5BEA0289A1F97FB702D7B2C4 /* Pods-AlbumSearchAPI-acknowledgements.markdown */,
+				0F3341DBB8A95642C3CB3D6FAB4E8E5D /* Pods-AlbumSearchAPI-acknowledgements.plist */,
+				4148939C3B608E97B44D6495EEE247CD /* Pods-AlbumSearchAPI-dummy.m */,
+				1110F07ED81CDD29A09241F3010F2B95 /* Pods-AlbumSearchAPI-Info.plist */,
+				0FF63CD6978D95E00E2143E6B130F21C /* Pods-AlbumSearchAPI-umbrella.h */,
+				4627802A2E2F62F837AE61E2A3567183 /* Pods-AlbumSearchAPI.debug.xcconfig */,
+				3BC99D49F08C60A63F5ECD4F738C253F /* Pods-AlbumSearchAPI.release.xcconfig */,
+			);
+			name = "Pods-AlbumSearchAPI";
+			path = "Target Support Files/Pods-AlbumSearchAPI";
+			sourceTree = "<group>";
+		};
 		5CF3CC91591DC0FB78AAF62E6DE84E18 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -589,16 +688,37 @@
 			path = "../Target Support Files/Kingfisher";
 			sourceTree = "<group>";
 		};
-		64113F748BF3538AE57EA649FF1B0246 /* Targets Support Files */ = {
+		632BC3DACC327053F1D46A6026863302 /* Pods-AlbumSearchAPITests */ = {
 			isa = PBXGroup;
 			children = (
-				9589AC899DB2887A02558EC3C052CB6A /* Pods-AlbumSearch */,
-				C2F673E0489171413E3F05BA1AEA6D6C /* Pods-AlbumSearchAPI */,
-				CB5117EA2ECBF1BBFA91ED9525C13C12 /* Pods-AlbumSearchAPITests */,
-				F8C18DCEE370248651C25BE4E72E78E8 /* Pods-AlbumSearchTests */,
-				B280758EF79894376AD46E99BECC29EC /* Pods-AlbumSearchUITests */,
+				CB9C8F9F0FA1F37AC450E2AEE07F5C77 /* Pods-AlbumSearchAPITests.modulemap */,
+				002A0CDA9D3C1308A38EB88B59F51AE5 /* Pods-AlbumSearchAPITests-acknowledgements.markdown */,
+				C121F32D74AE619DF2B23306B4533E46 /* Pods-AlbumSearchAPITests-acknowledgements.plist */,
+				C52EE724E82F47093BDBB8EB321BCF01 /* Pods-AlbumSearchAPITests-dummy.m */,
+				2901DAEE03FE4FBFDAA6E99F7A64727B /* Pods-AlbumSearchAPITests-frameworks.sh */,
+				149812A2E15BEEB188D8EEC01E5FE5F1 /* Pods-AlbumSearchAPITests-Info.plist */,
+				CFA48BF8B4FD72CA19284E7AB1E592C4 /* Pods-AlbumSearchAPITests-umbrella.h */,
+				B260B3045655F3DD1947FD2EA44024F1 /* Pods-AlbumSearchAPITests.debug.xcconfig */,
+				1D146674F36BDBDE8A2BE76AB4D89C45 /* Pods-AlbumSearchAPITests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-AlbumSearchAPITests";
+			path = "Target Support Files/Pods-AlbumSearchAPITests";
+			sourceTree = "<group>";
+		};
+		68AD061499E6DB433952F42CD1D469A6 /* Pods-AlbumSearchModel */ = {
+			isa = PBXGroup;
+			children = (
+				C0CE80992150B55BE3FE18F47757D30E /* Pods-AlbumSearchModel.modulemap */,
+				2D2BA6F84CF4E4B10B1ABB09E3411FF0 /* Pods-AlbumSearchModel-acknowledgements.markdown */,
+				6CC3DE9B0D9086595B5011AA863258DA /* Pods-AlbumSearchModel-acknowledgements.plist */,
+				0FF6A124318E9415005B5E48AF03FBB1 /* Pods-AlbumSearchModel-dummy.m */,
+				107C8C6DEA33DEACB479FECD97E40D8E /* Pods-AlbumSearchModel-Info.plist */,
+				D291930400E4172547FC89D6EFB937E2 /* Pods-AlbumSearchModel-umbrella.h */,
+				DC2A1CA07F6F47F064EF2EB124332E28 /* Pods-AlbumSearchModel.debug.xcconfig */,
+				CC176A46A2FD62876B0350CA0561F6B8 /* Pods-AlbumSearchModel.release.xcconfig */,
+			);
+			name = "Pods-AlbumSearchModel";
+			path = "Target Support Files/Pods-AlbumSearchModel";
 			sourceTree = "<group>";
 		};
 		80AC0F9BC16C8E0B4F1C848E36E5CD47 /* Frameworks */ = {
@@ -611,21 +731,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9589AC899DB2887A02558EC3C052CB6A /* Pods-AlbumSearch */ = {
+		8A4F65ABB49546970C62810BA0A0A7BF /* Pods-AlbumSearchTests */ = {
 			isa = PBXGroup;
 			children = (
-				54FE9A2F435948B156A2B3E6274CDB89 /* Pods-AlbumSearch.modulemap */,
-				1CE13FA2CEE1B5A2B41431DB9C3C99C7 /* Pods-AlbumSearch-acknowledgements.markdown */,
-				94C2C414E5BA3C558A035A9A6B7D8020 /* Pods-AlbumSearch-acknowledgements.plist */,
-				F80AD95FD5D5B62C210FDF927B7DBFCC /* Pods-AlbumSearch-dummy.m */,
-				B3E1FD96FFF029BAA78D6933277A5A70 /* Pods-AlbumSearch-frameworks.sh */,
-				79BD0B92FE89B9365C415A678FB15FC2 /* Pods-AlbumSearch-Info.plist */,
-				DF199F115BC5F1BF503D0AB71AA2CEA4 /* Pods-AlbumSearch-umbrella.h */,
-				C765CD1FF9A80D599CEE94BA4A669DC9 /* Pods-AlbumSearch.debug.xcconfig */,
-				8D3C2D9C6E066ACDD897538CDB6A5E05 /* Pods-AlbumSearch.release.xcconfig */,
+				4CDC256E255EA4C5D9D6C85EFDC1884B /* Pods-AlbumSearchTests.modulemap */,
+				E67A87545B48D56AE69A1DC99C073B8B /* Pods-AlbumSearchTests-acknowledgements.markdown */,
+				21A15DE6ABF00B60A7AD8550EB46D511 /* Pods-AlbumSearchTests-acknowledgements.plist */,
+				B02EE404DEA98F9A7386A3F16C207C3F /* Pods-AlbumSearchTests-dummy.m */,
+				B2208DF29C0A90406323BC38C9E9059B /* Pods-AlbumSearchTests-Info.plist */,
+				85CDBC02CD68223D2C3D59BB913541D2 /* Pods-AlbumSearchTests-umbrella.h */,
+				BA2E90103076BB1076DF4CF0C2C848D6 /* Pods-AlbumSearchTests.debug.xcconfig */,
+				C559094050BF3CB4F518EF3B65766E98 /* Pods-AlbumSearchTests.release.xcconfig */,
 			);
-			name = "Pods-AlbumSearch";
-			path = "Target Support Files/Pods-AlbumSearch";
+			name = "Pods-AlbumSearchTests";
+			path = "Target Support Files/Pods-AlbumSearchTests";
 			sourceTree = "<group>";
 		};
 		9B596D8E65627BCE016601DCBD9209AA /* Moya */ = {
@@ -659,22 +778,6 @@
 			path = "../Target Support Files/SwiftGen";
 			sourceTree = "<group>";
 		};
-		B280758EF79894376AD46E99BECC29EC /* Pods-AlbumSearchUITests */ = {
-			isa = PBXGroup;
-			children = (
-				98EBFF35BFE2C358750473E9E202B1ED /* Pods-AlbumSearchUITests.modulemap */,
-				2855415B4CC697233205FF6B41699D2B /* Pods-AlbumSearchUITests-acknowledgements.markdown */,
-				C9EF5CC13AB57BE740B2B38DD357C71B /* Pods-AlbumSearchUITests-acknowledgements.plist */,
-				46659BA261A4E5FD00487B6E74EB28F2 /* Pods-AlbumSearchUITests-dummy.m */,
-				491A3E40FC58B1F8302AD108FDB9B018 /* Pods-AlbumSearchUITests-Info.plist */,
-				43D2E2262A304C80AB5B38535ECD7143 /* Pods-AlbumSearchUITests-umbrella.h */,
-				4982B954EC416E2F68F9D0B0FC16600C /* Pods-AlbumSearchUITests.debug.xcconfig */,
-				5018864203DB88006855B3B4C30F47CB /* Pods-AlbumSearchUITests.release.xcconfig */,
-			);
-			name = "Pods-AlbumSearchUITests";
-			path = "Target Support Files/Pods-AlbumSearchUITests";
-			sourceTree = "<group>";
-		};
 		C16655C1CBBC31AA2003542B149E819B /* Result */ = {
 			isa = PBXGroup;
 			children = (
@@ -686,39 +789,6 @@
 			);
 			name = Result;
 			path = Result;
-			sourceTree = "<group>";
-		};
-		C2F673E0489171413E3F05BA1AEA6D6C /* Pods-AlbumSearchAPI */ = {
-			isa = PBXGroup;
-			children = (
-				B216E2F475BDC92F53FB46A2FCE741F5 /* Pods-AlbumSearchAPI.modulemap */,
-				5CDEA87C401D0759711BABEA7E8340A1 /* Pods-AlbumSearchAPI-acknowledgements.markdown */,
-				9799E9156CDFF2E0E12AFC035DC22DB8 /* Pods-AlbumSearchAPI-acknowledgements.plist */,
-				4F2FDEE7326063A27490707309C5B15E /* Pods-AlbumSearchAPI-dummy.m */,
-				004FE9986924C9F3197C0EF0F0B9F76D /* Pods-AlbumSearchAPI-Info.plist */,
-				D02481AEA0F3B1D5458B47EE7E07E5A2 /* Pods-AlbumSearchAPI-umbrella.h */,
-				EF75EFE752F7BDEC470F93F9ACC58EF0 /* Pods-AlbumSearchAPI.debug.xcconfig */,
-				C96A33CECF06F7900E2A3B3B8E19DD4C /* Pods-AlbumSearchAPI.release.xcconfig */,
-			);
-			name = "Pods-AlbumSearchAPI";
-			path = "Target Support Files/Pods-AlbumSearchAPI";
-			sourceTree = "<group>";
-		};
-		CB5117EA2ECBF1BBFA91ED9525C13C12 /* Pods-AlbumSearchAPITests */ = {
-			isa = PBXGroup;
-			children = (
-				B0FF17DE51F81FEE7E86D5EBFA364C1E /* Pods-AlbumSearchAPITests.modulemap */,
-				615591CDBBD0F48046841C71ED91D4AA /* Pods-AlbumSearchAPITests-acknowledgements.markdown */,
-				78A2A6CD74173C11B94DBFCE86C64AE0 /* Pods-AlbumSearchAPITests-acknowledgements.plist */,
-				984B7F13DB1D8014A0B87C5CBA95A960 /* Pods-AlbumSearchAPITests-dummy.m */,
-				C76C3775ABA1E967BD7D696BC5044B64 /* Pods-AlbumSearchAPITests-frameworks.sh */,
-				B6C4EC6AD6A4DE1B8D50B1211B3D865E /* Pods-AlbumSearchAPITests-Info.plist */,
-				619794D9A39B6755F5393522352F04C1 /* Pods-AlbumSearchAPITests-umbrella.h */,
-				94849C4416800F0A915205D457C61A9A /* Pods-AlbumSearchAPITests.debug.xcconfig */,
-				B07614ABA5BA08C614D3F0129EA6919B /* Pods-AlbumSearchAPITests.release.xcconfig */,
-			);
-			name = "Pods-AlbumSearchAPITests";
-			path = "Target Support Files/Pods-AlbumSearchAPITests";
 			sourceTree = "<group>";
 		};
 		CED52A76E177DDE9411F21B4C43CAF94 /* Kingfisher */ = {
@@ -781,8 +851,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				80AC0F9BC16C8E0B4F1C848E36E5CD47 /* Frameworks */,
 				9ECB3D6F5EDE60B915368447C22AF96F /* Pods */,
-				F52AEE15E23DBE919B6DE808C94D960E /* Products */,
-				64113F748BF3538AE57EA649FF1B0246 /* Targets Support Files */,
+				3F2D350586EBD9CEF064099D41C01294 /* Products */,
+				56B5690FD0B06C1B02C17AD9D02565A3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -826,38 +896,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
-		F52AEE15E23DBE919B6DE808C94D960E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4A68D63DE976B1CD89D911C1E00D1920 /* Alamofire.framework */,
-				CFDC1C8F69E522945FBED4D900884479 /* Kingfisher.framework */,
-				23A1849D20D96465DF620D8451F18CDF /* Moya.framework */,
-				F7D356299160A8C7B56ACEB982FD6EAE /* Pods_AlbumSearch.framework */,
-				11E7233FB902333B5BD7F45F65EFB715 /* Pods_AlbumSearchAPI.framework */,
-				33D09E649681259B3368DB1AE2B13A53 /* Pods_AlbumSearchAPITests.framework */,
-				E394A76035B1900D202057A69A2EF3A0 /* Pods_AlbumSearchTests.framework */,
-				02DA6E81FCAC17341580528C1B3A8B9A /* Pods_AlbumSearchUITests.framework */,
-				18B95EEA724F4E77111EE78C86AAC633 /* Result.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F8C18DCEE370248651C25BE4E72E78E8 /* Pods-AlbumSearchTests */ = {
-			isa = PBXGroup;
-			children = (
-				C1EE774563E0A2D4CA247867EED080DF /* Pods-AlbumSearchTests.modulemap */,
-				19B4BDDEF721DDE999EDA381028D0A02 /* Pods-AlbumSearchTests-acknowledgements.markdown */,
-				2D3B981538BF356190BCA81A5343559C /* Pods-AlbumSearchTests-acknowledgements.plist */,
-				4E97B4212CB12119BD2F6FE2C05E25FB /* Pods-AlbumSearchTests-dummy.m */,
-				B06DDEC5765089731FFD7AF0789378C7 /* Pods-AlbumSearchTests-Info.plist */,
-				77A35E7EC85C2A00E97EF3EE47C1E5FC /* Pods-AlbumSearchTests-umbrella.h */,
-				3A30E9EF9B493D27EE498B543988726D /* Pods-AlbumSearchTests.debug.xcconfig */,
-				9434F90E796AD17CB1F6A5BF1DF6AC68 /* Pods-AlbumSearchTests.release.xcconfig */,
-			);
-			name = "Pods-AlbumSearchTests";
-			path = "Target Support Files/Pods-AlbumSearchTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -928,6 +966,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C5463E63DEC5574FB299706F96BA7D3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAB6F4C89359BC2F8BF19F51DFD5CF5 /* Pods-AlbumSearchModel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7A6588CEA919559E5AE0CF2E072388A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -957,7 +1003,7 @@
 			);
 			name = "Pods-AlbumSearchAPITests";
 			productName = "Pods-AlbumSearchAPITests";
-			productReference = 33D09E649681259B3368DB1AE2B13A53 /* Pods_AlbumSearchAPITests.framework */;
+			productReference = E6D7DC16E53673D33E17CF4CEC135FE6 /* Pods_AlbumSearchAPITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		103C1E86DA335923DC15F6096077B386 /* Kingfisher */ = {
@@ -975,7 +1021,7 @@
 			);
 			name = Kingfisher;
 			productName = Kingfisher;
-			productReference = CFDC1C8F69E522945FBED4D900884479 /* Kingfisher.framework */;
+			productReference = ED8884A5BDC783B8DA2C68DC14239B90 /* Kingfisher.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3383968E74B5371B20BB519B170DC7FD /* Alamofire */ = {
@@ -993,7 +1039,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 4A68D63DE976B1CD89D911C1E00D1920 /* Alamofire.framework */;
+			productReference = 98C8DF11F339A26BAE77127D07E55AE9 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4B0183450F95394DC0C49E326A20B42D /* Result */ = {
@@ -1011,7 +1057,7 @@
 			);
 			name = Result;
 			productName = Result;
-			productReference = 18B95EEA724F4E77111EE78C86AAC633 /* Result.framework */;
+			productReference = A30572DFC1EE3397D1E2EBCD7E3AFB3F /* Result.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6465C930C4001D9A8765C67008F1D0CB /* Pods-AlbumSearchTests */ = {
@@ -1030,7 +1076,25 @@
 			);
 			name = "Pods-AlbumSearchTests";
 			productName = "Pods-AlbumSearchTests";
-			productReference = E394A76035B1900D202057A69A2EF3A0 /* Pods_AlbumSearchTests.framework */;
+			productReference = B09DC03D80FD0D8B87DABC06DDA4CFD8 /* Pods_AlbumSearchTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A29228F7B86E840E13F86F1C554F72B7 /* Pods-AlbumSearchModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272B344081E8D4C8459A03D1DDCF0E15 /* Build configuration list for PBXNativeTarget "Pods-AlbumSearchModel" */;
+			buildPhases = (
+				C5463E63DEC5574FB299706F96BA7D3C /* Headers */,
+				02E34F12DADDBFC259A4EF1FC5B0EF7A /* Sources */,
+				978EF344E74B5447F3954E886ACD2AB4 /* Frameworks */,
+				795FDD3EDC02F225C6CD15739A2407AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AlbumSearchModel";
+			productName = "Pods-AlbumSearchModel";
+			productReference = 087E8CB3656964B2C20D9B8E36B69C1A /* Pods_AlbumSearchModel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BAAB01D1BA82ABAE2B535579B77ED0CB /* Moya */ = {
@@ -1050,7 +1114,7 @@
 			);
 			name = Moya;
 			productName = Moya;
-			productReference = 23A1849D20D96465DF620D8451F18CDF /* Moya.framework */;
+			productReference = C2165BA7B1559D85505EEA78E246ED2D /* Moya.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E62E5628F327806641946593CACAE20C /* Pods-AlbumSearchAPI */ = {
@@ -1071,7 +1135,7 @@
 			);
 			name = "Pods-AlbumSearchAPI";
 			productName = "Pods-AlbumSearchAPI";
-			productReference = 11E7233FB902333B5BD7F45F65EFB715 /* Pods_AlbumSearchAPI.framework */;
+			productReference = 667B3E33C85CF23513A708C1A5E7ADA7 /* Pods_AlbumSearchAPI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F5A91A351A36EA98F758770C121D9411 /* Pods-AlbumSearchUITests */ = {
@@ -1090,7 +1154,7 @@
 			);
 			name = "Pods-AlbumSearchUITests";
 			productName = "Pods-AlbumSearchUITests";
-			productReference = 02DA6E81FCAC17341580528C1B3A8B9A /* Pods_AlbumSearchUITests.framework */;
+			productReference = 103649A6EDC92CF74BEEAAE792F7D8A0 /* Pods_AlbumSearchUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FF653CC668FFA9F691D5FAD74F037DE5 /* Pods-AlbumSearch */ = {
@@ -1113,7 +1177,7 @@
 			);
 			name = "Pods-AlbumSearch";
 			productName = "Pods-AlbumSearch";
-			productReference = F7D356299160A8C7B56ACEB982FD6EAE /* Pods_AlbumSearch.framework */;
+			productReference = FE84F623DC06E5A31D544EA9588C10E5 /* Pods_AlbumSearch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1133,7 +1197,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F52AEE15E23DBE919B6DE808C94D960E /* Products */;
+			productRefGroup = 3F2D350586EBD9CEF064099D41C01294 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1143,6 +1207,7 @@
 				FF653CC668FFA9F691D5FAD74F037DE5 /* Pods-AlbumSearch */,
 				E62E5628F327806641946593CACAE20C /* Pods-AlbumSearchAPI */,
 				094B0E7A0A5661F5910C8909CD0D4196 /* Pods-AlbumSearchAPITests */,
+				A29228F7B86E840E13F86F1C554F72B7 /* Pods-AlbumSearchModel */,
 				6465C930C4001D9A8765C67008F1D0CB /* Pods-AlbumSearchTests */,
 				F5A91A351A36EA98F758770C121D9411 /* Pods-AlbumSearchUITests */,
 				4B0183450F95394DC0C49E326A20B42D /* Result */,
@@ -1187,6 +1252,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		795FDD3EDC02F225C6CD15739A2407AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8FBFA973C731731C001A77DF65E167B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1218,6 +1290,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		02E34F12DADDBFC259A4EF1FC5B0EF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DDBC28057175E91021557342C78D73 /* Pods-AlbumSearchModel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3247DE5603C184A031BDD4B800342BD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1475,7 +1555,7 @@
 /* Begin XCBuildConfiguration section */
 		004974173B6D03CE2273D7A8050B0370 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C765CD1FF9A80D599CEE94BA4A669DC9 /* Pods-AlbumSearch.debug.xcconfig */;
+			baseConfigurationReference = 064E86F7B912C4D8CE8B2E96E0AC56C5 /* Pods-AlbumSearch.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1513,7 +1593,7 @@
 		};
 		100FAB442EA5F548F764D3AC3AD60D25 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94849C4416800F0A915205D457C61A9A /* Pods-AlbumSearchAPITests.debug.xcconfig */;
+			baseConfigurationReference = B260B3045655F3DD1947FD2EA44024F1 /* Pods-AlbumSearchAPITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1551,7 +1631,7 @@
 		};
 		103D4793100C21DEFAA1DB93F943C7E0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D3C2D9C6E066ACDD897538CDB6A5E05 /* Pods-AlbumSearch.release.xcconfig */;
+			baseConfigurationReference = 99BF0D8A79813E6996DB6B61C9BB6F6F /* Pods-AlbumSearch.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1590,7 +1670,7 @@
 		};
 		1A97DC532A5BF96E8E04A270AF7207BF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF75EFE752F7BDEC470F93F9ACC58EF0 /* Pods-AlbumSearchAPI.debug.xcconfig */;
+			baseConfigurationReference = 4627802A2E2F62F837AE61E2A3567183 /* Pods-AlbumSearchAPI.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1628,7 +1708,7 @@
 		};
 		302917113807BF939428DA45AB6AC817 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A30E9EF9B493D27EE498B543988726D /* Pods-AlbumSearchTests.debug.xcconfig */;
+			baseConfigurationReference = BA2E90103076BB1076DF4CF0C2C848D6 /* Pods-AlbumSearchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1754,7 +1834,7 @@
 		};
 		455A64D7896A42A5AB182F637BE0A06D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B07614ABA5BA08C614D3F0129EA6919B /* Pods-AlbumSearchAPITests.release.xcconfig */;
+			baseConfigurationReference = 1D146674F36BDBDE8A2BE76AB4D89C45 /* Pods-AlbumSearchAPITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1828,7 +1908,7 @@
 		};
 		5340E635B10111D7A48233C1DCBA10A6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5018864203DB88006855B3B4C30F47CB /* Pods-AlbumSearchUITests.release.xcconfig */;
+			baseConfigurationReference = A3B8F42CC54273C15F1F78DA338C728B /* Pods-AlbumSearchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2050,7 +2130,7 @@
 		};
 		A588F3A63CDEBB66BBC6A88F7BBA6F51 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9434F90E796AD17CB1F6A5BF1DF6AC68 /* Pods-AlbumSearchTests.release.xcconfig */;
+			baseConfigurationReference = C559094050BF3CB4F518EF3B65766E98 /* Pods-AlbumSearchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2089,7 +2169,7 @@
 		};
 		B23A8BED501395509CDF0E2A99B17BD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4982B954EC416E2F68F9D0B0FC16600C /* Pods-AlbumSearchUITests.debug.xcconfig */;
+			baseConfigurationReference = 512E47C531EB13F0D73BE3EA8163D3D3 /* Pods-AlbumSearchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2124,6 +2204,45 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		B293BCA7A67FFA510702738DB0E4D4A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC176A46A2FD62876B0350CA0561F6B8 /* Pods-AlbumSearchModel.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlbumSearchModel/Pods-AlbumSearchModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlbumSearchModel/Pods-AlbumSearchModel.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		BCDC990785F0B66200AC575DE497D090 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2198,9 +2317,47 @@
 			};
 			name = Release;
 		};
+		CB7C5BBCF9B4D983973860E41FC5DA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC2A1CA07F6F47F064EF2EB124332E28 /* Pods-AlbumSearchModel.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlbumSearchModel/Pods-AlbumSearchModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlbumSearchModel/Pods-AlbumSearchModel.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		CD3BC4B2174FE5F742FC841B4B3AAEF2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C96A33CECF06F7900E2A3B3B8E19DD4C /* Pods-AlbumSearchAPI.release.xcconfig */;
+			baseConfigurationReference = 3BC99D49F08C60A63F5ECD4F738C253F /* Pods-AlbumSearchAPI.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2304,6 +2461,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		272B344081E8D4C8459A03D1DDCF0E15 /* Build configuration list for PBXNativeTarget "Pods-AlbumSearchModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7C5BBCF9B4D983973860E41FC5DA5F /* Debug */,
+				B293BCA7A67FFA510702738DB0E4D4A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2E4DEA1A782793EBDCFB25832E79E481 /* Build configuration list for PBXNativeTarget "Pods-AlbumSearchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

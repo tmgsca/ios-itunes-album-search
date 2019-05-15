@@ -8,6 +8,7 @@
 
 import Foundation
 import Moya
+import AlbumSearchModel
 
 public class AlbumSearchAPI {
     

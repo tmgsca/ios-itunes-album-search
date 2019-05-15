@@ -5,6 +5,9 @@
       location = "group:AlbumSearch/AlbumSearch.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:AlbumSearchModel/AlbumSearchModel.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:AlbumSearchAPI/AlbumSearchAPI.xcodeproj">
    </FileRef>
    <FileRef

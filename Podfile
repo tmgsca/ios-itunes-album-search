@@ -21,6 +21,10 @@ target 'AlbumSearch' do
   end
 end
 
+target 'AlbumSearchModel' do
+  project 'AlbumSearchModel/AlbumSearchModel.xcodeproj'
+end
+
 target 'AlbumSearchAPI' do
   project 'AlbumSearchAPI/AlbumSearchAPI.xcodeproj'
   api_pods
